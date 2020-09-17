@@ -1,0 +1,104 @@
+body {
+  padding: 0;
+  margin: 0;
+  /*background-color: #dedea8;*/
+  background-color: #0a979a;
+}
+
+Header {
+  font-family: "Grandstander", cursive;
+  padding: 0;
+  margin: 30px;
+  background-color: #4a4950;
+  border: double;
+  border-radius: 12px;
+}
+h1 {
+  color: #dbd8de;
+  font-size: 64px;
+  margin-left: 60px;
+}
+
+nav ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 0px;
+  /*margin-left: 115px;*/
+}
+
+nav li {
+  display: inline-block;
+}
+nav a {
+  color: white;
+  text-decoration: none;
+  font-family: "Grandstander", cursive;
+  font-size: 30px;
+}
+
+.Intro {
+  font-family: "Grandstander", cursive;
+  font-size: xx-large;
+  color: #f4efe8;
+  margin: 20px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  text-align: left;
+}
+
+#Favcharacters {
+  font-family: "Grandstander", cursive;
+  font-size: 32px;
+  margin: 20px;
+  text-align: right;
+}
+
+#Mustwatchanime {
+  font-family: "Grandstander", cursive;
+  font-size: 32px;
+  margin: 20px;
+  text-align: right;
+}
+
+h2 {
+  font-size: xx-large;
+  text-decoration-line: underline;
+  text-shadow: 2px 2px 5px white;
+}
+
+.entry {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row-reverse;
+  align-content: center;
+  align-items: center;
+  padding: 12px;
+  text-align: left;
+}
+
+.Effect::after {
+  content: "";
+  display: block;
+  width: 0px;
+  height: 5px;
+  background: white;
+  transition: width();
+  transition-duration: 1s;
+}
+
+.Effect:hover::after {
+  width: 100%;
+  transition: width();
+  transition-duration: 1s;
+}
+/*
+<h2>Number</h2>
+<div class="entry">
+  <img src="" alt="" width="75%" height="75%" />
+  <p>
+
+  </p>
+</div>
+*/
